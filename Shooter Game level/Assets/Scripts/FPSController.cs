@@ -13,7 +13,7 @@ public class FPSController : MonoBehaviour {
     float jumpSpeed = 4.0f;
     void Start () {
         controller = GetComponent<CharacterController>();
-        Cursor.visible= false;
+        Cursor.visible = false;
 	}
 	
 	void Update () {
