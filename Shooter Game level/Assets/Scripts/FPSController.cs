@@ -35,5 +35,7 @@ public class FPSController : MonoBehaviour {
         Vector3 speed = new Vector3(leftRightSpeed, verticalVelocity, forwardBackwardSpeed) ;
         speed = transform.rotation * speed;
         controller.Move(speed * Time.deltaTime);
+
+      
 	}
 }
